@@ -9,7 +9,7 @@ modified: '2020-06-18T08:23:21.137Z'
 ### Prerequisites
 - Python >= 3.7
 - Pytorch >= 1.5.0
-- Opecv >= 4.2.0
+- OpeCV >= 4.2.0
 
 ### Pre-Trained Models
 - SPPE FastPose (AlphaPose) - [fast_res](https://drive.google.com/file/d/1GyVA7kPcHpaauDp6HUT1KyeeJFsn6cVd/view?usp=sharing)
@@ -17,8 +17,12 @@ modified: '2020-06-18T08:23:21.137Z'
 - Tiny-YOLO oneclass - [yolo-tiny-onecls](https://drive.google.com/file/d/1QQ0pWakX6sIX71HkkMktQE8tVOMQn3mX/view?usp=sharing)
 
 ### Use
-1. Download all pre-trained models into `./Models` folder.
-2. Run main.py
+1. Install packages from `requirements.txt`
+```markdown
+pip install -r requirements.txt
+```
+2. Download all pre-trained models into `./Models` folder.
+3. Run main.py
 - Run with video
 ```markdown
 python main.py -c ./video/input/test.avi -o ./video/output/test_out.avi
